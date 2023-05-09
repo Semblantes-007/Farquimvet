@@ -1,0 +1,78 @@
+
+:root{
+  --theme-color:white;
+  --primary-color:#095898;
+  /*colores del logo*/
+  --logo-color1:#041d7b ;
+  --logo-color2:#adbb3a;
+  --logo-color3:#a37c54;
+  --logo-color4:#4c6090;
+  --logo-color5:#677c97;
+  --logo-color6:#213d3e;
+  --logo-color7:#283c74;
+  --logo-color8:#344c88;
+  /*colores del logo*/
+  --secondary-color:#adbb3a;
+  --text-color-inverse:white;
+  --text-color:black;
+  --navbar-shallow-color:#e5e5e5;
+  --menu-mobile-background-color:/*#095898*/ #041d7b;
+  
+}
+html{
+scroll-behavior: smooth;
+--bs-body-font-family: 'Montserrat', sans-serif;
+
+}
+section[id]{
+scroll-margin: 70px;
+
+}
+
+body {
+  background-color: var(--theme-color);
+  color: var(--text-color);
+  padding-top: 120px;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.horizontal-padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.vertical-padding{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.d-flex.justify-content-center.description a.btn {
+  padding: 10px 40px;
+
+
+  border: none;
+  background: var(--logo-color2);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 300ms;
+}
+
+.d-flex.justify-content-center.description a.btn:hover {
+  background: var(--logo-color3);
+}
+
+@media (min-width: 1200px){
+  .horizontal-padding {
+
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .vertical-padding{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
