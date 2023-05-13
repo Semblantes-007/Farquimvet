@@ -61,6 +61,7 @@ height: 50px;
     margin: 0px 5px;
 }
 @media (max-width: 950px) {
+
         .footerNav ul {
             flex-direction: column;
             justify-content: center;
