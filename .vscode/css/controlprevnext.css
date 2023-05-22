@@ -13,14 +13,18 @@
 
 }
 
+
+
+
+
 @media (max-width: 768px) {
   .carousel .carousel-control-prev {
-    left: -3%;
+    left: -4%;
 
   }
 
   .carousel .carousel-control-next {
-    right: -3%;
+    right: -4%;
 
   }
 }
